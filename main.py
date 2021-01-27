@@ -190,5 +190,4 @@ form = Options(
 
 random.seed(a=None, version=2)
 
-for i in range(10):
-    print(form.generate(Context()).value)
+print(form.generate(Context()).value)
